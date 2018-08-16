@@ -7,10 +7,11 @@
 #
 # This script dont fix anything!!!
 # It it   just a way to get a easy overview  and a starting point for future analyses
-# IF you search a lot of files there wil be a lot if diskIO and load on your server!
+# IF you search a lot of files there will be a lot if diskIO and load on your server!
 #
-#The searchFunctions are a list of things that i have found in different hacked files, eg the /usr/bin/perl
+#The searchFunctions are a list of things that I have found in different hacked files, eg the /usr/bin/perl
 # a bit strange to have in a php file.
+# This script is only usable for php files and files contaning php.
 #
 searchFunctions=(
     base64_encode
